@@ -22,9 +22,9 @@ services:
       - REDIS_HOST=redis
       - REDIS_PORT=6379
       - PGUSER=postgres
-      - PGHOST=postgres
-      - PGDATABASE=postgres
-      - PGPASSWORD=postgres_password
+      - PGHOST=complexdocker2.c9s1kwvdrmwo.us-east-2.rds.amazonaws.com
+      - PGDATABASE=fibvalues
+      - PGPASSWORD=postgrespassword
       - PGPORT=5432
   client:
     build:
